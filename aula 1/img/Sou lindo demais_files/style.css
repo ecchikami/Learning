@@ -1,0 +1,21 @@
+body{
+    background-image: url(./img/background2.jpeg);
+    background-repeat: cover;
+
+}
+
+#principal{
+    color:red;
+   /*background-color:grey;
+    background-image: url(./img/background.jpeg);
+    background-repeat: cover;*/
+}
+
+#titulo{
+    Color:green;
+}
+
+.texto_verde{
+
+    Color:green;
+}

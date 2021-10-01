@@ -1,0 +1,31 @@
+body{
+  /* background-image: url(./img/background4.jpeg);
+   background-repeat: repeat-y;
+   /*background-size: ;*/
+*/
+}
+
+#principal{
+    color:red;
+   /* background-color:grey;
+    ackground-image: url(./img/background2.jpeg);*/
+    background-attachment:fixed;
+    background-repeat: round;
+}
+
+#titulo{
+    Color:green;
+}
+
+.texto_verde{
+
+    Color:green;
+}
+
+#div1{
+    color:cornflowerblue;
+    background-image: url(./img/background4.jpeg);
+    background-repeat: repeat-y;
+
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resposive</title>
+    <style type="text/css">
+        body{
+            margin:0;
+            padding:0;
+        }
+        .header {
+            position: relative;
+            border: 1px solid black;
+            overflow: hidden;
+            padding: 15px;
+            background-color: darkolivegreen;
+
+        }
+
+        .logo {
+            display:inline-block;
+            color: white;
+
+        }
+
+        .menu {
+            list-style: none;
+            float: right;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        li {
+            float: left;
+            margin: 3px;
+
+        }
+
+        @media screen and (max-width: 400px) {
+            .logo {
+                float: none;
+                text-align: center;
+                font-size: 30px;
+                background-color: darkorange;
+            }
+
+            .menu {
+                float: none;
+                text-align: center;
+            }
+
+            li {
+                float: none;
+                margin-top: 5px;
+                padding: 10px;
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">Logo</div>
+
+        <ul class="menu">
+            <li>Home</li>
+            <li>Skills</li>
+            <li>Contatos</li>
+            <li>Projetos</li>
+        </ul>
+    </div>
+
+
+
+
+</body>
+
+</html>
